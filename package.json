@@ -15,14 +15,12 @@
     "core-js": "^3.9.1",
     "emailjs-com": "^3.2.0",
     "nuxt": "^2.15.3",
-    "vue-scroll-snap": "^0.1.11",
     "vue-scrollactive": "^0.9.3",
     "vue-toasted": "^1.1.28"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
     "autoprefixer": "^10.2.6",
-    "gh-pages": "^3.2.3",
     "postcss": "^8.3.5",
     "tailwindcss": "^2.2.4"
   }
