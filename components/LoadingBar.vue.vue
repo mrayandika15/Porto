@@ -36,7 +36,7 @@
   <style scoped >
 
     .landing-page{
-
+    z-index: 9999999999999;
     transition: all .5s;
     }
 
