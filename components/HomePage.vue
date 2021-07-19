@@ -3,7 +3,7 @@
 <div class="flex w-full h-screen relative " >
     <div class="flex w-full  flex-col  self-end md:self-center  md:ml-16">
 
-        <div class="image w-full h-full flex  md:absolute flex items-end justify-end md:right-36 md:bottom-60 z-10  ">
+        <div class="image w-full h-full flex  md:absolute flex items-end justify-end md:right-36 md:bottom-60  z-10  ">
             <img class="max-w-full w-full  md:w-1/3 h-auto z-10 rounded-lg" src="../assets/img/Fotoreal2.jpeg" alt="">
         </div>
 
@@ -33,7 +33,7 @@
         data-aos-once="true"
         >
 
-        <a class="ml-3" href="#project">
+        <a class="ml-3 z-50" href="#project">
             <button class="border border-white text-white text-sm py-2 px-3 md:py-3 md:text-sm md:px12 transition-all hover:bg-white  hover:text-black" >View More</button>
         </a>
 
