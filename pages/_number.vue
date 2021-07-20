@@ -5,19 +5,19 @@
         <div class="PersonalProject  w-full h-full"  data-aos="fade-up"   data-aos-once="true">
             <div class="flex flex-col ml-2 md:ml-16 mt-5">
                 <p class="text-base text-gray-300">Project</p>
-                <h3 class="text-3xl font-semibold">{{ porto.name }} </h3>
+                <h3 class=" text-xl md:text-3xl font-semibold">{{ porto.name }} </h3>
                 <div class="underline my-3"></div>
-                <p class="text-sm text-gray-200 text-base my-2">My Role</p>
-                <p class="text-xs text-gray-300 text-base" v-for="role in porto.role" >{{role}}</p>
+                <p class="text-sm text-gray-200 md:text-base my-2">My Role</p>
+                <p class="text-xs text-gray-300 md:text-base" v-for="role in porto.role" >{{role}}</p>
 
-                <p class="text-sm text-gray-200 mt-2 mb-1 text-base">Year</p>
-                <p class="text-xs text-gray-300 text-base">{{ porto.year }} </p>
+                <p class="text-sm text-gray-200 mt-2 mb-1 md:text-base">Year</p>
+                <p class="text-xs text-gray-300 md:text-base">{{ porto.year }} </p>
             </div>
 
         </div>
         <!-- Project Description -->
         <div class="PersonalProjectDesc w-full h-full mt-5 md:mt-0  "  data-aos="fade-up"   data-aos-once="true">
-            <div class="flex mx-3 md:mt-5 md:mr-8 text-justify text-lg ">
+            <div class="flex mx-3 md:mt-5 md:mr-8 text-justify text-base md:text-lg ">
                 <p>{{ porto.desc }}</p>
             </div>
         </div>

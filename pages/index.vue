@@ -24,9 +24,9 @@ export default {
 <style >
   body{
     height: 100%;
+    width: 100%;
     margin: 0;
     overflow-x: hidden;
-
   }
 
   body {

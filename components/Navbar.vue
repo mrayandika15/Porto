@@ -5,7 +5,7 @@
         <div class="flex w-full h-24 justify-between fixed z-20">
             <!-- Rayandika -->
 
-            <div class="flex text-white flex-col self-center pl-2 md:ml-16 z-50">
+            <div class="flex text-white flex-col self-center pl-2 md:ml-16 menunavbar">
                 <nuxt-link to="/">
                     <p class="text-xl font-semibold  cursor-pointer">Rayandika</p>
                     <p class="text-xs cursor-pointer">Web Front End & UI Designer</p>
@@ -13,7 +13,7 @@
             </div>
 
             <!-- Menu -->
-            <div class="flex text-white self-center pr-2 mr-10 md:mr-16 md:hidden z-50 " >
+            <div class="flex text-white self-center pr-2 mr-10 md:mr-16 md:hidden  " >
                 <div class="text-sm font-semibold cursor-pointer menu" :class="{ active : isActive }" v-on:click="Triggered" ></div>
             </div>
         </div>
@@ -103,6 +103,9 @@ export default {
 </script>
 <style  >
 
+    .menunavbar{
+        z-index: 100;
+    }
 
     .Triggered{
         transform: translateX(100%);
